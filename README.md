@@ -4,4 +4,4 @@ This is a git guideline document
 
 ## Table of contents
 
-- [Branching Model](branching_model.md)
+- [Branching Model](wiki/branching_model.md)
