@@ -35,14 +35,14 @@ Used to quickly fix a Production branch without interrupting changes in the deve
 
 ### **Bugfix**
 
-This branch is used to fix bugs which might be more intensive when it comes to the amount of changes to be done.
+This branch is used to fix bugs which might be more intensive when it comes to the amount of changes to be done.  \
 They should start with the prefix `bg/`
 
 - `bg/{BUG_NAME}`
 
 ### **Release**
 
-Branch used for release tasks and long-term maintenance versions. They are branched from the development branch and then merged into the production branch.
+Branch used for release tasks and long-term maintenance versions. They are branched from the development branch and then merged into the production branch. \
 They should start with this prefix `rl/`
 
 - `rl/{VERSION}`
