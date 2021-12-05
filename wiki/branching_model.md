@@ -23,21 +23,26 @@ Used for deploying a release. Branches from, and merges back into, the developme
 ### **Feature branch**
 
 Used for specific feature work or improvements. Generally branches from, and merges back into, the development branch, using pull requests.
+They should have the following prefix `ft/`
 
-- `ft/`
+- `ft/{FEATURE_NAME}`
 
 ### **Hotfix branch**
 
 Used to quickly fix a Production branch without interrupting changes in the development branch. In a Gitflow-based workflow, changes are usually merged into the production and development branches.
 
-- `ht/`
+- `ht/{BUG_NAME}`
 
 ### **Bugfix**
 
-branchTypically used to fix Release branches.
+This branch is used to fix bugs which might be more intensive when it comes to the amount of changes to be done.
+They should start with the prefix `bg/`
 
-- `bg/`
+- `bg/{BUG_NAME}`
 
 ### **Release**
 
-branchUsed for release tasks and long-term maintenance versions. They are branched from the development branch and then merged into the production branch. | rl/ |
+Branch used for release tasks and long-term maintenance versions. They are branched from the development branch and then merged into the production branch.
+They should start with this prefix `rl/`
+
+- `rl/{VERSION}`
