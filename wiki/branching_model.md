@@ -22,14 +22,15 @@ Used for deploying a release. Branches from, and merges back into, the developme
 
 ### **Feature branch**
 
-Used for specific feature work or improvements. Generally branches from, and merges back into, the development branch, using pull requests.
+Used for specific feature work or improvements. Generally branches from, and merges back into, the development branch, using pull requests. \
 They should have the following prefix `ft/`
 
 - `ft/{FEATURE_NAME}`
 
 ### **Hotfix branch**
 
-Used to quickly fix a Production branch without interrupting changes in the development branch. In a Gitflow-based workflow, changes are usually merged into the production and development branches.
+Used to quickly fix a Production branch without interrupting changes in the development branch. In a Gitflow-based workflow, changes are usually merged into the production and development branches. \
+They should have the following prefix `ht/`
 
 - `ht/{BUG_NAME}`
 
